@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod=true --progress=true --serviceWorker=true --outputPath=docs",
+    "build": "ng build --prod=true --serviceWorker=true --outputPath=docs --baseHref=/angular-pwa/",
     "test": "ng test",
     "lint": "ng lint", 
     "e2e": "ng e2e"
