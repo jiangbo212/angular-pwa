@@ -1,2 +1,2 @@
-# Redis-Manage-PWA
-一个用于管理redis的PWA应用
+# angular-pwa
+一个用angular开发的PWA应用
