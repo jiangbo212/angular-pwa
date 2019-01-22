@@ -16,7 +16,14 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    git checkout -b pipelines-`date`
     npm install -g @angular/cli
     npm install
     ng build
+  displayName: 'npm install and build'
+
+- script: |
+    git add *
+    git commit -m "pipelines-`date`"
+    git push origin "pipelines-`date`"
   displayName: 'npm install and build'
